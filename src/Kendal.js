@@ -6,8 +6,7 @@ import './bootstrap.css';
 class Kendal extends Component {
   render() {
     return (
-      <div className="backdrop">
-       Kendal
+      <div className="kendal backdrop">
       </div>
     );
   }

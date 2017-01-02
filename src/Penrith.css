@@ -1,1 +1,49 @@
-.penrith {}
+.appleby {
+	text-transform: none;
+	font-size: 14px;
+	letter-spacing: 2;
+	text-align:center;
+	font-weight:500;
+    font-family: "Crimson Text", kepler-std-display,Times,serif;
+}
+
+
+.penrith {
+	    display: block;
+	    font-family: futura-pt,Futura,sans-serif;
+	    font-size: 10px;
+	    text-transform: uppercase;
+	    letter-spacing: 2px;
+	    width: 20%;
+	    height: 20px;
+	    bottom: 20.25px;
+	    left: 41%;
+	    z-index: 60;
+        text-align: center;
+        position: fixed;
+	
+}
+@media screen and (min-width:320px) and (max-width:759px){
+
+
+	.penrith {
+	    width: 100%;
+	    left: 0;
+	    bottom: 0;
+	    height: 30px;
+	    position: relative;
+	}
+}
+
+
+@media screen and (min-width:760px) and (max-width:979px){
+	.penrith {
+	    width: 100%;
+	    left: 0;
+	    bottom: 0;
+	    height: 30px;
+	    position: relative;
+	}
+
+}
+

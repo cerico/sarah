@@ -6,8 +6,7 @@ import './bootstrap.css';
 class Carnforth extends Component {
   render() {
     return (
-      <div className="backdrop">
-       Carnforth
+      <div className="carnforth backdrop">
       </div>
     );
   }

@@ -1,1 +1,24 @@
-.carnforth {}
+.keswick {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+
+    z-index: 58;
+    width: 100%;
+    height: 53px;
+    display: block;
+}
+
+
+@media screen and (min-width:320px) and (max-width:759px){
+	.keswick {
+		display:none;
+	}
+}
+
+
+@media screen and (min-width:760px) and (max-width:979px){
+	.keswick {
+		display:none;
+	}
+}

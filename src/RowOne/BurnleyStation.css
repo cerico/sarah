@@ -1,0 +1,50 @@
+	.burnley-central {
+	    position: relative;
+	    width: 120px;
+	    height: 155px;
+	    opacity: 1;
+	    display: block;
+	    background-image: url(https://media.licdn.com/media/AAEAAQAAAAAAAAXpAAAAJDE0NGQ1MGQzLWY5YzgtNDViZS1hZWVjLWUxNDExYmI1NmU1OA.jpg);
+	    background-repeat: no-repeat;
+	    background-position: bottom left;
+	    background-size: 100% auto;
+	    margin-bottom: 0;
+	    linear-gradient: ( rgba(0,0,0,.5), rgba(0,0,0,.5) ); 
+	    filter: grayscale(100%);
+	    /*margin-top: 20px;*/
+	}
+
+
+	
+	.burnley-bus-station {
+		height:155px;
+	}
+	@media screen and (min-width:320px) and (max-width:759px){
+		.burnley-central {
+			   width: 300px;
+			   height: 435px;
+			   margin: 0 auto 30px;
+			   background-size: 100% auto;
+			   padding-top: 0;
+
+			}
+
+			.burnley-bus-station {
+				height: 435px;
+				margin-bottom:42px;
+
+			}
+
+	}
+
+	@media screen and (min-width:760px) and (max-width:979px){
+
+		.burnley-central {
+			    width: 250px;
+			    height: 324px;
+			}
+
+			.burnley-bus-station {
+				height: 324px;
+			}
+	}

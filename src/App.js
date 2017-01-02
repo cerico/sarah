@@ -8,12 +8,14 @@ import Arnside from './Arnside.js';
 import Kendal from './Kendal.js';
 import Keswick from './Keswick.js';
 import Penrith from './Penrith.js';
+import $ from 'jquery'; 
+import './main.js';
 
 
 class App extends Component {
   render() {
     return (
-      <body className="backdrop">
+      <div className="ourlass backdrop">
         <Morecambe></Morecambe>
         <Carnforth></Carnforth>
         <Arnside></Arnside>
@@ -21,7 +23,7 @@ class App extends Component {
         <Kendal></Kendal>
         <Penrith></Penrith>
 
-      </body>
+      </div>
     );
   }
 }
