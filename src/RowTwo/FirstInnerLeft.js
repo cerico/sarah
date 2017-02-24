@@ -11,7 +11,7 @@ class FirstInnerLeft extends Component {
       				Connect - 
       			</div>
       		</h5>
-      		<div>
+      		<div> 
       			<p>
       				<a href="https://www.linkedin.com/in/sarah-berch-heyman-188309107">Linkedin</a>
       				<br />
